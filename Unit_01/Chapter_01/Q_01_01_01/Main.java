@@ -12,3 +12,9 @@ scannerObj.close();
 }}
 
 
+        Scanner scannerObj = new Scanner(System.in);
+        String name = scannerObj.next();
+        System.out.println("Good evening, " + name + "!");
+        scannerObj.close();
+    }
+}
