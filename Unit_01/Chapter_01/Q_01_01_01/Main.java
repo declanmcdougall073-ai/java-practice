@@ -4,14 +4,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    Scanner scannerObj = new Scanner(System.in);
-    System.out.println("What is your name student? ");
-    String studentName = scannerObj.nextLine();
-    System.out.println("Good evening" + studentName + "!");
-scannerObj.close();
-}}
-
-
         Scanner scannerObj = new Scanner(System.in);
         String name = scannerObj.next();
         System.out.println("Good evening, " + name + "!");
