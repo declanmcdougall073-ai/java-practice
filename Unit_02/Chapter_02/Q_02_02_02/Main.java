@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         String country = scanner.next();
         if (country.equals("Argentina")) {
@@ -13,5 +14,7 @@ public class Main {
             System.out.println("no preference");
         }
         scanner.close();
+
+
     }
 } 
